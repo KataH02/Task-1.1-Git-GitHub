@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="task.css">
+</head>
+<body>
+    <main>
+        <br>
+        <p>BMI laskin on kopioitu mun eräästä omasta projektista (joka ei toki ole näin yksinkertaistettu tai tämän näköinen).</p>
+        <section>
+            <h2>BMI Calculator</h2>
+            <br>
+
+            <label for="weight" class="short">Your weight in kilograms:</label>
+                <br><br>
+                <input type="number" id="weight">
+                <br><br>
+                <label for="height" class="short">Your height in centimeters:</label>
+                <br><br>
+                <input type="number" id="height">
+                <br><br>
+                <button class="btn btn1" onclick="calculateBMI2()">Calculate</button>
+                
+                <p>Your BMI: <span id="bmi2"></span></p>
+          </section>
+          <script src="task.js"></script>
+</body>
+</html>
